@@ -1,0 +1,107 @@
+/* CONTAINER */
+#container{
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: #874356;
+    border: 2px solid #F6E7D8;
+    padding: 15px;
+    height: 630px;
+    color: #874356;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+#header{
+    background-color: #F6E7D8;
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+    float: left;
+    /* margin-left: 30px; */
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+#header h1{
+    color: rgb(71, 65, 65);
+    font-size: 0.5rem;
+    
+}
+#header img{
+    animation-name: my-img;
+    animation-duration: 2s;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+}
+@keyframes my-img {
+    0%{
+        opacity: 0;
+        transform: translateY(-150%);
+    }
+    30%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    60%{
+        opacity: 1;
+        transform: translateY(-6px);
+    }
+    70%{
+        opacity: 1;
+        transform: translateY(-3px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+/* EDUCATION */
+#education{
+    background-color: #F6E7D8;
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border-radius: 5%;
+
+}
+
+/* CURRENTLY LEANING */
+
+#currently{
+    background-color: #F6E7D8;
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border-radius: 5%;
+    font-size: 1.8rem;
+    transition: all 2s;
+}
+
+#currently:hover p  {
+    transform: translate(100px, 0px);
+}
+
+#currently:hover .fa-brands{
+    transform: translate(100px, 0px);
+}
+
+#currently:hover .java{
+    transform: skewX(10deg);
+}
